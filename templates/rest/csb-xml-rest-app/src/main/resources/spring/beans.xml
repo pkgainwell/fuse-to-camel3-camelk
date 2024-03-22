@@ -8,6 +8,6 @@
        http://camel.apache.org/schema/spring http://camel.apache.org/schema/spring/camel-spring.xsd">
 
        <!-- THIS IS WHERE THE BEANS MUST BE DECLARED -->
-       <bean/>
+    <bean class="org.blogdemo.claimdemo.ClaimProcessor" id="claimProcessor"/>
        
 </beans>
